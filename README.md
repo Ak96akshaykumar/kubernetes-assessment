@@ -46,7 +46,7 @@ $ helm install grafana-operator appscode/grafana-operator
 $ kubectl port-forward service/prometheus-operator-grafana 4000:80
 ```
 
-Access grafana UI at http://localhost:4000
-Add prometheus datasource
-Create dashboard -> import dashboard.json
-View created dashbaord
+1. Access grafana UI at http://localhost:4000
+2. Add prometheus datasource
+3. Create dashboard -> import dashboard.json
+4. View created dashbaord
